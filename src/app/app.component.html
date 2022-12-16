@@ -1,7 +1,10 @@
 <div>
     <h1>This is a {{title}}</h1>
     <nav>
-        <a routerLink="/app-todos">Heroes</a>
+        <ul>
+            <li><a routerLink="/app-todos" routerLinkActive="active" ariaCurrentWhenActive="page">Test Component</a></li>
+            <li><a routerLink="/app-routing" routerLinkActive="active" ariaCurrentWhenActive="page">Routing Component</a></li>
+            </ul>
       </nav>
     <router-outlet></router-outlet>
     
