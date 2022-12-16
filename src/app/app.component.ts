@@ -8,8 +8,8 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'angular-project';
   constructor(){
-    setTimeout(()=>{
-      this.title = "i have changed the title"
-    },3000)
+    // setTimeout(()=>{
+    //   this.title = "i have changed the title"
+    // },3000)
   }
 }
